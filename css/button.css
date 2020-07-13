@@ -1,0 +1,40 @@
+.button {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 13px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  transition: 0.4s ease-in-out;
+  color: white;
+  border: 3px solid white;
+  background: rgba(63, 59, 58, 1);
+}
+.button:hover {
+  color: rgba(63, 59, 58, 1);
+  background: white;
+  border-color: white;
+}
+.button span {
+  opacity: 0;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+.button:hover span {
+  opacity: 1;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: rgba(63, 59, 58, 1);
+}
+input[type=file] {
+  cursor: pointer;
+  overflow: hidden;
+  width: 250px;
+}
+
+input[type=file]::-webkit-file-upload-button {
+  width: 0px;
+  visibility: hidden;
+}

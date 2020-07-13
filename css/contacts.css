@@ -1,0 +1,20 @@
+.card {
+    background-color: rgba(29, 31, 28, 1);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    color: white;
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.post-wrap {
+	max-width: 1120px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.post-item {
+	padding: 15px;
+}

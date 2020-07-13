@@ -1,0 +1,16 @@
+.edit {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  color: rgba(29, 31, 28, 1);
+  background: white;
+  border: none;
+  outline-style: none;
+  padding: 10px 13px;
+  width: 250px;
+  -webkit-box-shadow: inset 0 0 0 50px white;
+  -webkit-text-fill-color: rgba(29, 31, 28, 1);
+}

@@ -1,0 +1,90 @@
+footer {
+  background: rgba(29, 31, 28, 1);
+  color: white;
+  padding-top: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&subset=cyrillic');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+.nesolestag-enadenud {
+  display: flex;
+  max-width: 1120px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.post-item {
+	padding: 15px;
+}
+
+.kesednsoled:after,
+.kesednsoled:before {
+  content: ".";
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  font-size: 0;
+  line-height: 0;
+  width: 0;
+  height: 0;
+  clear: both;
+}
+.ico-wrap {
+  color: rgba(170, 83, 41, 1);
+  width: 48px;
+  height: 48px;
+  margin: 30px 18px 5px 5px;
+  display: block;
+  text-align: center;
+  font-size: 25px;
+  border: 2px solid rgba(170, 83, 41, 1);
+  float: left;
+}
+.ico-contact {
+  line-height: 1.9 !important;
+}
+.meanous-andscoev {
+  margin-bottom: 20px;
+}
+.aio-icon-title {
+  font-size: 16px;
+  color: rgba(170, 83, 41, 1);
+  line-height: 1;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 768px) {
+  .meanous-andscoev,
+  .ico-wrap {
+  float: none;
+  text-align: center;
+  }
+  .ico-wrap {
+  margin: 0 auto 15px auto;
+  }
+}
+
+h3 {
+  margin-block-start: 5px;
+  margin-block-end: 5px;
+}
+h4 {
+  margin-block-start: 5px;
+  margin-block-end: 5px;
+}
+
+@media (min-width: 768px) {
+	.post-item {
+		flex-basis: 50%;
+		flex-shrink: 0;
+	}
+}
+@media (min-width: 960px) {
+	.post-item {
+		flex-basis: 33.333333333%;
+	}
+}
